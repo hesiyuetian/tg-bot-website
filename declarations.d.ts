@@ -1,1 +1,1 @@
-declare module '@tonconnect/ui-react';
+declare module 'nprogress';

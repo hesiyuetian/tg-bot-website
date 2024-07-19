@@ -1,2 +1,2 @@
 export { default as Loading } from './Loading';
-export { default as Confirm } from './Confirm';
+export { default as ConfirmModal } from './ConfirmModal';
