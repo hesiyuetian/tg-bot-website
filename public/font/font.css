@@ -1,0 +1,15 @@
+/* @font-face {
+    font-family: 'DINPro';
+    src: url('./DINPro-Regular.otf');
+} */
+
+@font-face {
+    font-family: 'zixiaohunwennuantongzhiti_trial';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-display: swap;
+    /* src: url('https://cloud.frog.travel/main/font/ComicSansMS.ttf'); */
+    /* src: url('https://cloud.frog.travel/main/font/zixiaohunwennuantongzhiti_trial.ttf'); */
+    /* src: url('./zixiaohunwennuantongzhiti_trial.ttf'); */
+    src: url('./ComicSansMSBold.ttf');
+}
