@@ -5,10 +5,10 @@ const env = require('./.env.json');
 const nextConfig = {
     env: {
         HTTPS_REJECT_UNAUTHORIZED: '0',
-        APP_ENV: process.env.APP_ENV ?? 'dev',
+        APP_ENV: process.env.APP_ENV ?? 'dev'
 
         // next export 需要添加 避免@netlify/plugin-nextjs 报错
-        NETLIFY_NEXT_PLUGIN_SKIP: true
+        // NETLIFY_NEXT_PLUGIN_SKIP: true
     },
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')]
